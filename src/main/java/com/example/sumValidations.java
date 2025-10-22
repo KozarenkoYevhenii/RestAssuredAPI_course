@@ -21,6 +21,10 @@ public class sumValidations {
         System.out.println("sum = " + sum);
         System.out.println("purchaseAmount = " + purchaseAmount);
         System.out.println("git test");
+
+        System.out.println("git test branching");
+
+
         Assert.assertEquals(sum, purchaseAmount);
     }
 }
