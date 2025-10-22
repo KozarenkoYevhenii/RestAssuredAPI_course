@@ -20,6 +20,7 @@ public class sumValidations {
         int purchaseAmount = js.getInt("dashboard.purchaseAmount");
         System.out.println("sum = " + sum);
         System.out.println("purchaseAmount = " + purchaseAmount);
+        System.out.println("git test");
         Assert.assertEquals(sum, purchaseAmount);
     }
 }
